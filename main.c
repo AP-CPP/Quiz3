@@ -22,9 +22,9 @@ int main() {
 
     strcpy(buffer, "This string is very long");
 
-    free(buffer);
-
     buffer[0] = 'X';
+
+    free(buffer);
 
     char *message = "Testing *message";
 
