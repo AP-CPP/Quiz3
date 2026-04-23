@@ -18,6 +18,8 @@ int main() {
 
     process_data(msg);
 
+    free(msg);
+
     char *buffer = (char *)malloc(25);
 
     strcpy(buffer, "This string is very long");
