@@ -16,7 +16,7 @@ int main() {
 
     printf("Message: %s\n", msg);
 
-    process_data(NULL);
+    process_data(msg);
 
     char *buffer = (char *)malloc(8);
 
