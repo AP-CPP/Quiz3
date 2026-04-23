@@ -26,7 +26,7 @@ int main() {
 
     buffer[0] = 'X';
 
-    char *message;
+    char *message = "Testing *message";
 
     printf("Print Message: %s\n", message);
 
