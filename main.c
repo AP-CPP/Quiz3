@@ -20,11 +20,11 @@ int main() {
 
     free(msg);
 
-    char *buffer = (char *)malloc(25);
+    char *buffer = (char *)malloc(25); 
 
     strcpy(buffer, "This string is very long");
 
-    buffer[0] = 'X';
+    buffer[0] = 'X'; // Can also be removed since its not being used
 
     free(buffer);
 
